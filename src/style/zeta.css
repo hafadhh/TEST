@@ -1,0 +1,27 @@
+.zeta-cantik {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow: hidden; /* Mencegah elemen navbar melampaui viewport */
+  }
+
+  .full-screen {
+    height: 100vh; /* Mengisi tinggi viewport penuh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6; /* Opsional: untuk memberi warna latar */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
